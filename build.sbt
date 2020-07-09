@@ -1,4 +1,4 @@
-name := "ReaderWriterStateBenchmarks"
+name := "DataStructureBenchmarks"
 
 version := "0.1"
 
