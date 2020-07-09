@@ -2,6 +2,7 @@ To run: `sbt jmh:run`
 
 Performance characteristics (scala docs): https://docs.scala-lang.org/overviews/collections-2.13/performance-characteristics.html
 
+```
 [info] Benchmark                              Mode  Cnt          Score          Error  Units
 [info] Benchmarks.appendLargeArraySeq        thrpt    5       2445.305 ±      795.928  ops/s
 [info] Benchmarks.appendLargeChunk           thrpt    5   16643335.252 ±   526679.037  ops/s
@@ -28,5 +29,6 @@ Performance characteristics (scala docs): https://docs.scala-lang.org/overviews/
 [info] Benchmarks.updateLargeVector          thrpt    5   23041966.251 ±  1202371.182  ops/s
 [info] Benchmarks.updateLargeHashMap         thrpt    5   11097460.705 ±   400748.875  ops/s
 [info] Benchmarks.updateLargeTreeMap         thrpt    5    8836166.553 ±  1121080.951  ops/s
+```
 
 References: https://gist.github.com/ghostdogpr/bbfc584e683ca7c8723ab34ffec9a059
